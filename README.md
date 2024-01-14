@@ -21,7 +21,7 @@ For this tutorial, we will specifically focus on two continental populations, gr
 
 <!---  https://www.nature.com/articles/s41586-023-05896-x#Fig1-->
 
-## Tutorial sections
+## Tutorial sections 
 <a name="sec"></a>
 
 |Section | Content | link |
@@ -32,7 +32,6 @@ For this tutorial, we will specifically focus on two continental populations, gr
 |3 | Tajima's D | [link](tutorialsections/1.fst.md)| 
 |4 | pca  | [link](tutorialsections/1.fst.md)| 
 <!--|5 | population structure  | [link]()|--->
-
 
 ## Software we will use for this tutorial 
 
