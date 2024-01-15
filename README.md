@@ -39,14 +39,14 @@ For this tutorial, we will specifically focus on two continental populations, gr
 
 `vcftools` https://vcftools.github.io/documentation.html
 
-`bcftools` 
+`bcftools` https://samtools.github.io/bcftools/bcftools.html
 
-`odgi` 
+`odgi`  https://pangenome.github.io/odgi.github.io/
 
-`bandage` 
+`bandage` https://rrwick.github.io/Bandage/
 
 
-`R` During the exercise, calculations are typically performed, and to visualize the results, you may use your preferred plotting tools or the R code available in the 'rscripts' folder. These R scripts can be executed directly from the command line. Alternatively, if you prefer a more interactive approach, you can upload your data into RStudio. There, you have the option to either write your own code or modify and reuse the code provided in the scripts
+`R` During the exercise, calculations are typically performed, and to visualize the results, you may use your preferred plotting tools or the R code available in the `rscripts` folder. These R scripts can be executed directly from the command line. Alternatively, if you prefer a more interactive approach, you can upload your data into RStudio. There, you have the option to either write your own code or modify and reuse the code provided in the scripts
 
 #### Authors 
 
