@@ -31,9 +31,9 @@ myplot_f <- myd%>%
     labs(title=titleOfGraph , x= 'chr15 position (Mb)') +
     geom_hline(yintercept = fst_threshold, color = "red", linetype = "dashed")  
 
- mp<-grid.arrange(myplot_f, myplot_w, nrow = 2) #, widths = c(2, 2, 2, 0.5))
+ mp<-grid.arrange(myplot_w, myplot_f, nrow = 2) #, widths = c(2, 2, 2, 0.5))
 
-ggsave(plot = mp, filename = paste(input_file, titleOfGraph, '.png', sep=''), width = 18, height = 20 , units='cm') 
+ggsave(plot = mp, filename = paste(titleOfGraph, '.png', sep=''), width = 18, height = 20 , units='cm') 
 
 
 highMeanFst<- myd%>% filter (as.numeric(MEAN_FST)>fst_threshold) 
