@@ -40,5 +40,5 @@ highMeanFst<- myd%>% filter (as.numeric(MEAN_FST)>fst_threshold)
 write.table(highMeanFst, file = paste(titleOfGraph, '.MEAN_FST.high', sep=''), sep = "\t", row.names = FALSE, quote= FALSE)
 
 
-highWeighFst<- myd%>% filter (as.numeric(WEIGHTED_FST)>fst_threshold) 
+highWeighFst<- myd%>% filter (as.numeric(WEIGHTED_FST)>weightedfst_threshold ) 
 write.table(highWeighFst, file = paste(titleOfGraph, '.WEIGHTED_FST.high', sep=''), sep = "\t", row.names = FALSE, quote= FALSE)
