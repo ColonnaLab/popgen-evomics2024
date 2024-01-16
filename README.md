@@ -30,7 +30,7 @@ For this tutorial, we will specifically focus on two continental populations, gr
 |1 | Allele frequency, site frequency spectrum | [link](tutorialsections/1.afs.md)| 
 |2 | Fst  and pangenome graph inspection| [link](tutorialsections/2.fst.md)| 
 |3 | Principal component analysis | [link](tutorialsections/3.pca.md)| 
-|4 | Tajima's D | [link](tutorialsections/4.taj.md)| 
+<!--|4 | Tajima's D | [link](tutorialsections/4.taj.md)|--> 
 <!--|5 | population structure  | [link]()|--->
 
 ## Software we will use for this tutorial 
