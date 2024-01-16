@@ -22,6 +22,6 @@ merged_data <- merge(eigenvec, metadata, by.x = "Sample") #
 # Plot the first two principal components
 myplot<- ggplot(merged_data, aes(x = PC1, y = PC2, color = Superpopulation)) +
   geom_point() +
-  labs(title = "PCA Plot", x = "Principal Component 1", y = "Principal Component 2")
+  labs(title = eigenvec_file, x = "Principal Component 1", y = "Principal Component 2")
 
 ggsave(plot = myplot, filename = paste(eigenvec_file, '.pca.png', sep=''), width = 15, height = 10 , units='cm') 
