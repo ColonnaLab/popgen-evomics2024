@@ -27,4 +27,4 @@ myplot<- ggplot(myd, aes(X.BIN_START, OBS_CT, fill=pop )) +
     geom_bar (stat='identity', position='dodge') +
     labs(title=titleOfGraph , x= 'allele frequency bin', y='counts')
 
-ggsave(plot = myplot, filename = paste(titleOfGraph, '.png', sep='')) 
+ggsave(plot = myplot, filename = paste(titleOfGraph, '.png', sep=''),  width = 18, height = 8 , units='cm') 
