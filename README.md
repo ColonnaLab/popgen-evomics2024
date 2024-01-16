@@ -50,4 +50,4 @@ For this tutorial, we will specifically focus on two continental populations, gr
 
 #### Authors 
 
-_Enza Colonna, Erik Garrison, Silvia Buonaiuto, chatGTP_ 
+_Enza Colonna, Miloš Duchoslav, Erik Garrison, Silvia Buonaiuto, chatGTP_ 
